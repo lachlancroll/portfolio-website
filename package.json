@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -27,7 +27,6 @@
     "watch": "^0.13.0"
   },
   "devDependencies": {
-    "@types/seedrandom": "^3.0.5",
-    "gh-pages": "^5.0.0"
+    "@types/seedrandom": "^3.0.5"
   }
 }
