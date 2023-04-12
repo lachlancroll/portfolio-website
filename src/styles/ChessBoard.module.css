@@ -1,0 +1,85 @@
+
+
+  
+  .board {
+    margin: auto;
+    width: calc(var(--square-width) * 8);
+  }
+  
+  .board-row {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+
+  .piece-image {
+    height: var(--square-width);;
+    width: var(--square-width);;
+  }
+
+
+
+  .square {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--square-width);
+    height: var(--square-width);
+  }
+
+  .lightSquare {
+    composes: square;
+    background-color:rgb(252, 244, 221, 0.75);
+  }
+
+  .lightSquareHighlighted {
+    composes: square;
+    background-color:rgba(255, 220, 113, 0.75);
+  }
+  
+  .darkSquare {
+    composes: square;
+    background-color:rgba(182, 70, 32, 0.75);
+  }
+
+  .darkSquareHighlighted {
+    composes: square;
+    background-color:rgba(182, 157, 32, 0.75);
+  }
+
+
+
+
+
+
+
+
+  .piece {
+    font-size: 30px;
+    font-weight: bold;
+    cursor: grab;
+  }
+  
+  .piece.wP,
+  .piece.wR,
+  .piece.wN,
+  .piece.wB,
+  .piece.wQ,
+  .piece.wK {
+    color: #fff;
+  }
+  
+  .piece.bP,
+  .piece.bR,
+  .piece.bN,
+  .piece.bB,
+  .piece.bQ,
+  .piece.bK {
+    color: #000;
+  }

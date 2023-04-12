@@ -1,0 +1,32 @@
+.projects {
+    background-color: #f8f8f8;
+    margin: auto;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.projects h1 {
+    padding: 5vh 0;
+    text-align: center;
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+.projects h2 {
+    padding: 5vh 0;
+    text-align: center;
+}
+
+.projects .chess {
+    text-align: center;
+}
+
+.projects .chess .board {
+    margin:auto;
+    width: 480px;
+    height: 480px;
+}
+
+.projects .chess .content {
+    padding: 2rem;
+    text-align: center;
+}
